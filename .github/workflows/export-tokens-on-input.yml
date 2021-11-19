@@ -3,9 +3,9 @@ jobs:
   generate_tokens:
     runs-on: macos-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v2
-      with:
+     - uses: actions/checkout@v2
+     - uses: actions/setup-node@v2
+     with:
         node-version: '12'
     - name: Install Node Dependencies
       run: npm install
