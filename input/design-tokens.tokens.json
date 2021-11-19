@@ -9,6 +9,11 @@
       "description": null,
       "type": "color",
       "value": "#39e1f8ee"
+    },
+    "testgithub3": {
+      "description": null,
+      "type": "color",
+      "value": "#3925e8ee"
     }
   }
 }
