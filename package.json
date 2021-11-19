@@ -1,0 +1,23 @@
+{
+  "name": "style-dictionary-tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaylpl/style-dictionary-demo.git"
+  },
+   "scripts": {
+    "build": "style-dictionary build"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jaylpl/style-dictionary-demo/issues"
+  },
+  "homepage": "https://github.com/jaylpl/style-dictionary-demo#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "style-dictionary": "^3.0.3"
+  }
+}
