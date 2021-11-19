@@ -7,7 +7,7 @@
     "type": "git",
     "url": "git+https://github.com/jaylpl/style-dictionary-demo.git"
   },
-   "scripts": {
+  "scripts": {
     "build": "style-dictionary build"
   },
   "author": "",
