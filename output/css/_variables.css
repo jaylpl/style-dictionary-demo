@@ -1,10 +1,11 @@
 /**
  * Do not edit directly
- * Generated on Sat, 20 Nov 2021 15:32:30 GMT
+ * Generated on Sat, 20 Nov 2021 15:36:13 GMT
  */
 
 :root {
   --gradient-button-border-gradient: [object Object];
   --gradient-text-input-border: [object Object];
-  --color-testgithub: #39e1f8;
+  --color-button-background-blue: #39e1f8;
+  --color-button-background: #ffea8a;
 }
