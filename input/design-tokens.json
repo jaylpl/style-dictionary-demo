@@ -1,42 +1,4 @@
 {
-  "gradient": {
-    "button border gradient": {
-      "description": null,
-      "type": "custom-gradient",
-      "value": {
-        "gradientType": "linear",
-        "rotation": 180,
-        "stops": [
-          {
-            "position": 0.86,
-            "color": "#babfc3ff"
-          },
-          {
-            "position": 1,
-            "color": "#bbbfc3ff"
-          }
-        ]
-      }
-    },
-    "text input border": {
-      "description": null,
-      "type": "custom-gradient",
-      "value": {
-        "gradientType": "linear",
-        "rotation": 180,
-        "stops": [
-          {
-            "position": 0,
-            "color": "#a7acb1ff"
-          },
-          {
-            "position": 0.1,
-            "color": "#babfc3ff"
-          }
-        ]
-      }
-    }
-  },
   "color": {
     "testgithub": {
       "description": null,
