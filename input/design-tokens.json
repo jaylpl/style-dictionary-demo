@@ -38,10 +38,17 @@
     }
   },
   "color": {
-    "testgithub": {
+    "button background blue": {
       "description": null,
       "type": "color",
       "value": "#39e1f8ff"
+    },
+    "button": {
+      "background": {
+        "description": null,
+        "type": "color",
+        "value": "#ffea8aff"
+      }
     }
   }
 }
