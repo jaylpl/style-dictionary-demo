@@ -16,6 +16,12 @@
             "color": "#bbbfc3ff"
           }
         ]
+      },
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "styleId": "S:13ad3136550d8afa2ba0b63ecbb04aea18050611,",
+          "exportKey": "gradient"
+        }
       }
     },
     "text input border": {
@@ -34,6 +40,12 @@
             "color": "#babfc3ff"
           }
         ]
+      },
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "styleId": "S:81989c4ced583dd21ec4268441587d6cf05fc0cd,",
+          "exportKey": "gradient"
+        }
       }
     }
   },
@@ -41,13 +53,25 @@
     "button background blue": {
       "description": null,
       "type": "color",
-      "value": "#39e1f8ff"
+      "value": "#39e1f8ff",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "styleId": "S:ecf5c89d50c6e601ac5008c6163fcab288a27466,",
+          "exportKey": "color"
+        }
+      }
     },
     "button": {
       "background": {
         "description": null,
         "type": "color",
-        "value": "#ffea8aff"
+        "value": "#ffea8aff",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:c22c0d38deb7180fe5c4e67dd6c14e32239dd74b,",
+            "exportKey": "color"
+          }
+        }
       }
     }
   }
