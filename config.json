@@ -16,8 +16,14 @@
         "destination": "_variables.css",
         "format": "css/variables"
       }]
+    },    
+    "android": {
+      "transformGroup": "android",
+      "buildPath": "output/css/",
+      "files": [{
+        "destination": "_variables.css",
+        "format": "android/variables"
+      }]
     }
-      
-    
-  }
+}
 }
