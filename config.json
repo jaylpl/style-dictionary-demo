@@ -18,11 +18,11 @@
       }]
     },    
     "android": {
-      "transformGroup": "android",
-      "buildPath": "output/css/",
+      "transformGroup": ["attribute/cti", "name/cti/snake", "color/hex", "size/remToSp", "size/remToDp"],
+      "buildPath": "output/android/src/main/res/values/",
       "files": [{
-        "destination": "_variables.css",
-        "format": "android/variables"
+        "destination": "style_dictionary_colors.xml",
+        "format": "android/colors"
       }]
     }
 }
