@@ -1715,5 +1715,9 @@
       "fontSize": "{font-size.font-unit14}"
     },
     "type": "typography"
+  },
+  "test-colour": {
+    "value": "#3b0909",
+    "type": "color"
   }
 }
