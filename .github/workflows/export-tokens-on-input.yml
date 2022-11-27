@@ -12,14 +12,14 @@ jobs:
     steps:
      - uses: actions/checkout@v2
      - uses: actions/setup-node@v2
-       with:
-         node-version: '16'
+       with: 
+       node-version: '16'
      - name: Install Node Dependencies
-       run: npm install
+     - run: npm install
      - name: token-transformer
-       run: token-transformer tokens.json output.json
+     - run: token-transformer tokens.json output.json
      - name: Build Style Dictionary
-       run: npm run build
+     - run: npm run build
      - name: Commit Generated Platform Deliverables
        id: "auto-commit-action"
      - uses: stefanzweifel/git-auto-commit-action@v4
