@@ -17,7 +17,7 @@ jobs:
      - name: Install Node Dependencies
      run: npm install
      - name: token-transformer
-     run: node token-transformer tokens.json output.json
+     run: npm token-transformer tokens.json output.json
      - name: Build Style Dictionary
      run: npm run build
      - name: Commit Generated Platform Deliverables
