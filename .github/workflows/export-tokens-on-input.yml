@@ -11,9 +11,12 @@ jobs:
     runs-on: macos-latest
 
     steps:
-      - uses: actions/checkout@v2
-      - name: Setup Node.js environment
-        uses: actions/setup-node@v2.4.0
+     - uses: actions/checkout@v3
+      - name: Setup Node 16.x
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16.x
+          
       # Transform Figma Tokens JSON to something Style Dictionary can read
       - run: npx token-transformer input/design-tokens.json input/output.json
       
