@@ -10,6 +10,17 @@
           "format": "scss/variables"
         }
       ]
+    },
+    "css": {
+      "transformGroup": "scss",
+      "buildPath": "output/css/",
+      "files": [
+        {
+          "destination": "_variables.css",
+          "format": "css/variables"
+          
+        }
+      ]
     }
     }
   }
