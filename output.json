@@ -66,122 +66,122 @@
   "line-height": {
     "h1": {
       "desktop": {
-        "value": "76px",
+        "value": "{spacing.grid.unit19}",
         "type": "lineHeights"
       },
       "tablet": {
-        "value": "48px",
+        "value": "{spacing.grid.unit12}",
         "type": "lineHeights"
       },
       "mobile": {
-        "value": "44px",
+        "value": "{spacing.grid.unit11}",
         "type": "lineHeights"
       }
     },
     "h2": {
       "desktop": {
-        "value": "52px",
+        "value": "{spacing.grid.unit13}",
         "type": "lineHeights"
       },
       "tablet": {
-        "value": "44px",
+        "value": "{spacing.grid.unit11}",
         "type": "lineHeights"
       },
       "mobile": {
-        "value": "32px",
+        "value": "{spacing.grid.unit8}",
         "type": "lineHeights"
       }
     },
     "h6": {
       "desktop": {
-        "value": "28px",
+        "value": "{spacing.grid.unit7}",
         "type": "lineHeights",
         "description": "Line height for the H6 heading on Desktop.\nUsed on:\ncanvas"
       },
       "tablet": {
-        "value": "24px",
+        "value": "{spacing.grid.unit6}",
         "type": "lineHeights",
         "description": "Line height for the H6 heading on tablet.\nUsed on:\ncanvas"
       },
       "mobile": {
-        "value": "24px",
+        "value": "{line-height.h6.tablet}",
         "type": "lineHeights",
         "description": "Line height for the H6 heading on mobile.\n"
       }
     },
     "h3": {
       "desktop": {
-        "value": "44px",
+        "value": "{spacing.grid.unit11}",
         "type": "lineHeights"
       },
       "tablet": {
-        "value": "32px",
+        "value": "{spacing.grid.unit8}",
         "type": "lineHeights"
       },
       "mobile": {
-        "value": "32px",
+        "value": "{spacing.grid.unit8}",
         "type": "lineHeights"
       }
     },
     "h4": {
       "desktop": {
-        "value": "40px",
+        "value": "{spacing.grid.unit10}",
         "type": "lineHeights",
         "description": "Lineheight for h4 on desktop."
       },
       "tablet": {
-        "value": "32px",
+        "value": "{spacing.grid.unit8}",
         "type": "lineHeights",
         "description": "Lineheight for h4 on tablet."
       },
       "mobile": {
-        "value": "32px",
+        "value": "{line-height.h4.tablet}",
         "type": "lineHeights",
         "description": "Lineheight for h4 on mobile."
       }
     },
     "h5": {
       "desktop": {
-        "value": "32px",
+        "value": "{spacing.grid.unit8}",
         "type": "lineHeights"
       },
       "tablet": {
-        "value": "28px",
+        "value": "{spacing.grid.unit7}",
         "type": "lineHeights"
       },
       "mobile": {
-        "value": "28px",
+        "value": "{line-height.h5.tablet}",
         "type": "lineHeights"
       }
     },
     "h7": {
       "desktop": {
-        "value": "28px",
+        "value": "{spacing.grid.unit7}",
         "type": "lineHeights",
         "description": "Line height for the H6 heading on Desktop.\nUsed on:\ncanvas"
       },
       "tablet": {
-        "value": "24px",
+        "value": "{spacing.grid.unit6}",
         "type": "lineHeights",
         "description": "Line height for the H6 heading on tablet.\nUsed on:\ncanvas"
       },
       "mobile": {
-        "value": "24px",
+        "value": "{line-height.h6.tablet}",
         "type": "lineHeights",
         "description": "Line height for the H6 heading on mobile.\n"
       }
     },
     "display1": {
       "desktop": {
-        "value": "80px",
+        "value": "{spacing.grid.unit20}",
         "type": "lineHeights"
       },
       "tablet": {
-        "value": "80px",
+        "value": "{spacing.grid.unit20}",
         "type": "lineHeights"
       },
       "mobile": {
-        "value": "56px",
+        "value": "{spacing.grid.unit14}",
         "type": "lineHeights"
       }
     }
@@ -226,11 +226,11 @@
   },
   "border": {
     "rest": {
-      "value": "#c5ccd3",
+      "value": "{neutral.30}",
       "type": "color"
     },
     "error": {
-      "value": "#BC002C",
+      "value": "{global.dark-red}",
       "type": "color"
     }
   },
@@ -304,7 +304,7 @@
       "description": "ROSE red"
     },
     "primary": {
-      "value": "#151f27",
+      "value": "{neutral.100}",
       "type": "color"
     }
   },
@@ -392,106 +392,106 @@
         "type": "spacing"
       },
       "unit2": {
-        "value": "8px",
+        "value": "{spacing.grid.unit1}*2",
         "type": "spacing"
       },
       "unit3": {
-        "value": "12px",
+        "value": "{spacing.grid.unit1}*3",
         "type": "spacing"
       },
       "unit4": {
-        "value": "16px",
+        "value": "{spacing.grid.unit1}*4",
         "type": "spacing"
       },
       "unit5": {
-        "value": "20px",
+        "value": "{spacing.grid.unit1}*5",
         "type": "spacing"
       },
       "unit6": {
-        "value": "24px",
+        "value": "{spacing.grid.unit1}*6",
         "type": "spacing"
       },
       "unit7": {
-        "value": "28px",
+        "value": "{spacing.grid.unit1}*7",
         "type": "spacing"
       },
       "unit8": {
-        "value": "32px",
+        "value": "{spacing.grid.unit1}*8",
         "type": "spacing"
       },
       "unit9": {
-        "value": "36px",
+        "value": "{spacing.grid.unit1}*9",
         "type": "spacing"
       },
       "unit10": {
-        "value": "40px",
+        "value": "{spacing.grid.unit1}*10",
         "type": "spacing"
       },
       "unit11": {
-        "value": "44px",
+        "value": "{spacing.grid.unit1}*11",
         "type": "spacing"
       },
       "unit12": {
-        "value": "48px",
+        "value": "{spacing.grid.unit1}*12",
         "type": "spacing"
       },
       "unit13": {
-        "value": "52px",
+        "value": "{spacing.grid.unit1}*13",
         "type": "spacing"
       },
       "unit14": {
-        "value": "56px",
+        "value": "{spacing.grid.unit1}*14",
         "type": "spacing"
       },
       "unit18": {
-        "value": "72px",
+        "value": "{spacing.grid.unit1}*18",
         "type": "spacing"
       },
       "unit19": {
-        "value": "76px",
+        "value": "{spacing.grid.unit1}*19",
         "type": "spacing"
       },
       "unit20": {
-        "value": "80px",
+        "value": "{spacing.grid.unit1}*20",
         "type": "spacing"
       },
       "unit21": {
-        "value": "84px",
+        "value": "{spacing.grid.unit1}*21",
         "type": "spacing"
       },
       "unit22": {
-        "value": "88px",
+        "value": "{spacing.grid.unit1}*22",
         "type": "spacing"
       },
       "unit24": {
-        "value": "96px",
+        "value": "{spacing.grid.unit1}*24",
         "type": "spacing"
       },
       "unit28": {
-        "value": "112px",
+        "value": "{spacing.grid.unit1}*28",
         "type": "spacing"
       },
       "unit30": {
-        "value": "120px",
+        "value": "{spacing.grid.unit1}*30",
         "type": "spacing"
       }
     },
     "component": {
       "desktop": {
         "s": {
-          "value": "40px",
+          "value": "{spacing.grid.unit10}",
           "type": "spacing"
         },
         "m": {
-          "value": "72px",
+          "value": "{spacing.grid.unit18}",
           "type": "spacing"
         },
         "l": {
-          "value": "96px",
+          "value": "{spacing.grid.unit24}",
           "type": "spacing"
         },
         "xl": {
-          "value": "120px",
+          "value": "{spacing.grid.unit30}",
           "type": "spacing"
         }
       },
@@ -710,32 +710,32 @@
       "colour": {
         "rest": {
           "background": {
-            "value": "#151f27",
+            "value": "{neutral.100}",
             "type": "color",
             "description": "Button background"
           },
           "text": {
-            "value": "#ffffff",
+            "value": "{global.white}",
             "type": "color"
           }
         },
         "hover": {
           "background": {
-            "value": "#3f4d5a",
+            "value": "{neutral.80}",
             "type": "color"
           },
           "text": {
-            "value": "#ffffff",
+            "value": "{global.white}",
             "type": "color"
           }
         },
         "disabled": {
           "background": {
-            "value": "#c5ccd3",
+            "value": "{neutral.30}",
             "type": "color"
           },
           "text": {
-            "value": "#ffffff",
+            "value": "{global.white}",
             "type": "color"
           }
         }
@@ -759,32 +759,32 @@
       "colour": {
         "rest": {
           "text": {
-            "value": "#151f27",
+            "value": "{neutral.100}",
             "type": "color",
             "description": "Button background"
           },
           "background": {
-            "value": "#ffffff",
+            "value": "{global.white}",
             "type": "color"
           }
         },
         "hover": {
           "background": {
-            "value": "#3f4d5a",
+            "value": "{button.primary.colour.hover.background}",
             "type": "color"
           },
           "text": {
-            "value": "#ffffff",
+            "value": "{button.primary.colour.hover.text}",
             "type": "color"
           }
         },
         "disabled": {
           "background": {
-            "value": "#c5ccd3",
+            "value": "{button.primary.colour.disabled.background}",
             "type": "color"
           },
           "text": {
-            "value": "#ffffff",
+            "value": "{button.primary.colour.disabled.text}",
             "type": "color"
           }
         }
@@ -794,32 +794,32 @@
       "colour": {
         "rest": {
           "border": {
-            "value": "#151f27",
+            "value": "{button.primary.colour.rest.background}",
             "type": "color",
             "description": "Button background"
           },
           "text": {
-            "value": "#151f27",
+            "value": "{button.primary.colour.rest.background}",
             "type": "color"
           }
         },
         "hover": {
           "background": {
-            "value": "#3f4d5a",
+            "value": "{button.primary.colour.hover.background}",
             "type": "color"
           },
           "text": {
-            "value": "#ffffff",
+            "value": "{button.primary.colour.hover.text}",
             "type": "color"
           }
         },
         "disabled": {
           "border": {
-            "value": "#8d99a5",
+            "value": "{neutral.50}",
             "type": "color"
           },
           "text": {
-            "value": "#8d99a5",
+            "value": "{button.outline.colour.disabled.border}",
             "type": "color"
           }
         }
@@ -829,22 +829,22 @@
       "colour": {
         "rest": {
           "background": {
-            "value": "#e50049",
+            "value": "{global.rose-red}",
             "type": "color",
             "description": "Used on CTA cards"
           },
           "text": {
-            "value": "#ffffff",
+            "value": "{global.white}",
             "type": "color"
           }
         },
         "hover": {
           "background": {
-            "value": "#BC002C",
+            "value": "{global.dark-red}",
             "type": "color"
           },
           "text": {
-            "value": "#ffffff",
+            "value": "{global.white}",
             "type": "color"
           }
         }
@@ -856,55 +856,55 @@
       "desktop": {
         "bold": {
           "fontFamily": {
-            "value": "Alaska Beta",
+            "value": "{main}",
             "type": "fontFamily"
           },
           "fontWeight": {
-            "value": "Bold Contrast",
+            "value": "{bold}",
             "type": "fontWeight"
           },
           "lineHeight": {
-            "value": "76px",
+            "value": "{line-height.h1.desktop}",
             "type": "lineHeight"
           },
           "fontSize": {
-            "value": "64px",
+            "value": "{font-size.font-unit54}",
             "type": "fontSize"
           }
         },
         "medium": {
           "fontFamily": {
-            "value": "Alaska Beta",
+            "value": "{main}",
             "type": "fontFamily"
           },
           "fontWeight": {
-            "value": "Medium Contrast",
+            "value": "{medium}",
             "type": "fontWeight"
           },
           "lineHeight": {
-            "value": "76px",
+            "value": "{line-height.h1.desktop}",
             "type": "lineHeight"
           },
           "fontSize": {
-            "value": "64px",
+            "value": "{font-size.font-unit54}",
             "type": "fontSize"
           }
         },
         "light": {
           "fontFamily": {
-            "value": "Alaska Beta",
+            "value": "{main}",
             "type": "fontFamily"
           },
           "fontWeight": {
-            "value": "Light Contrast",
+            "value": "{light}",
             "type": "fontWeight"
           },
           "lineHeight": {
-            "value": "76px",
+            "value": "{line-height.h1.desktop}",
             "type": "lineHeight"
           },
           "fontSize": {
-            "value": "64px",
+            "value": "{font-size.font-unit54}",
             "type": "fontSize"
           }
         }
@@ -912,55 +912,55 @@
       "tablet": {
         "bold": {
           "fontFamily": {
-            "value": "Alaska Beta",
+            "value": "{main}",
             "type": "fontFamily"
           },
           "fontWeight": {
-            "value": "Bold Contrast",
+            "value": "{bold}",
             "type": "fontWeight"
           },
           "lineHeight": {
-            "value": "48px",
+            "value": "{line-height.h1.tablet}",
             "type": "lineHeight"
           },
           "fontSize": {
-            "value": "42px",
+            "value": "{font-size.font-unit32}",
             "type": "fontSize"
           }
         },
         "medium": {
           "fontFamily": {
-            "value": "Alaska Beta",
+            "value": "{main}",
             "type": "fontFamily"
           },
           "fontWeight": {
-            "value": "Medium Contrast",
+            "value": "{medium}",
             "type": "fontWeight"
           },
           "lineHeight": {
-            "value": "48px",
+            "value": "{line-height.h1.tablet}",
             "type": "lineHeight"
           },
           "fontSize": {
-            "value": "42px",
+            "value": "{font-size.font-unit32}",
             "type": "fontSize"
           }
         },
         "light": {
           "fontFamily": {
-            "value": "Alaska Beta",
+            "value": "{main}",
             "type": "fontFamily"
           },
           "fontWeight": {
-            "value": "Light Contrast",
+            "value": "{light}",
             "type": "fontWeight"
           },
           "lineHeight": {
-            "value": "44px",
+            "value": "{spacing.grid.unit11}",
             "type": "lineHeight"
           },
           "fontSize": {
-            "value": "42px",
+            "value": "{font-size.font-unit32}",
             "type": "fontSize"
           }
         }
@@ -968,55 +968,55 @@
       "mobile": {
         "bold": {
           "fontFamily": {
-            "value": "Alaska Beta",
+            "value": "{main}",
             "type": "fontFamily"
           },
           "fontWeight": {
-            "value": "Bold Contrast",
+            "value": "{bold}",
             "type": "fontWeight"
           },
           "lineHeight": {
-            "value": "44px",
+            "value": "{line-height.h1.mobile}",
             "type": "lineHeight"
           },
           "fontSize": {
-            "value": "36px",
+            "value": "{font-size.font-unit26}",
             "type": "fontSize"
           }
         },
         "medium": {
           "fontFamily": {
-            "value": "Alaska Beta",
+            "value": "{main}",
             "type": "fontFamily"
           },
           "fontWeight": {
-            "value": "Medium Contrast",
+            "value": "{medium}",
             "type": "fontWeight"
           },
           "lineHeight": {
-            "value": "44px",
+            "value": "{line-height.h1.mobile}",
             "type": "lineHeight"
           },
           "fontSize": {
-            "value": "36px",
+            "value": "{font-size.font-unit26}",
             "type": "fontSize"
           }
         },
         "light": {
           "fontFamily": {
-            "value": "Alaska Beta",
+            "value": "{main}",
             "type": "fontFamily"
           },
           "fontWeight": {
-            "value": "Light Contrast",
+            "value": "{light}",
             "type": "fontWeight"
           },
           "lineHeight": {
-            "value": "44px",
+            "value": "{line-height.h1.mobile}",
             "type": "lineHeight"
           },
           "fontSize": {
-            "value": "36px",
+            "value": "{font-size.font-unit26}",
             "type": "fontSize"
           }
         }
@@ -1026,29 +1026,29 @@
       "desktop": {
         "bold": {
           "fontFamily": {
-            "value": "Alaska Beta",
+            "value": "{main}",
             "type": "fontFamily"
           },
           "fontWeight": {
-            "value": "Bold Contrast",
+            "value": "{bold}",
             "type": "fontWeight"
           },
           "lineHeight": {
-            "value": "52px",
+            "value": "{line-height.h2.desktop}",
             "type": "lineHeight"
           },
           "fontSize": {
-            "value": "42px",
+            "value": "{font-size.font-unit32}",
             "type": "fontSize"
           }
         },
         "medium": {
           "fontFamily": {
-            "value": "Alaska Beta",
+            "value": "{main}",
             "type": "fontFamily"
           },
           "fontWeight": {
-            "value": "Medium Contrast",
+            "value": "{medium}",
             "type": "fontWeight"
           },
           "lineHeight": {
@@ -1056,17 +1056,17 @@
             "type": "lineHeight"
           },
           "fontSize": {
-            "value": "42px",
+            "value": "{font-size.font-unit32}",
             "type": "fontSize"
           }
         },
         "light": {
           "fontFamily": {
-            "value": "Alaska Beta",
+            "value": "{main}",
             "type": "fontFamily"
           },
           "fontWeight": {
-            "value": "Light Contrast",
+            "value": "{light}",
             "type": "fontWeight"
           },
           "lineHeight": {
@@ -1074,7 +1074,7 @@
             "type": "lineHeight"
           },
           "fontSize": {
-            "value": "42px",
+            "value": "{font-size.font-unit32}",
             "type": "fontSize"
           }
         }
@@ -1082,55 +1082,55 @@
       "tablet": {
         "bold": {
           "fontFamily": {
-            "value": "Alaska Beta",
+            "value": "{main}",
             "type": "fontFamily"
           },
           "fontWeight": {
-            "value": "Bold Contrast",
+            "value": "{bold}",
             "type": "fontWeight"
           },
           "lineHeight": {
-            "value": "44px",
+            "value": "{line-height.h2.tablet}",
             "type": "lineHeight"
           },
           "fontSize": {
-            "value": "36px",
+            "value": "{font-size.font-unit26}",
             "type": "fontSize"
           }
         },
         "medium": {
           "fontFamily": {
-            "value": "Alaska Beta",
+            "value": "{main}",
             "type": "fontFamily"
           },
           "fontWeight": {
-            "value": "Medium Contrast",
+            "value": "{medium}",
             "type": "fontWeight"
           },
           "lineHeight": {
-            "value": "44px",
+            "value": "{line-height.h2.tablet}",
             "type": "lineHeight"
           },
           "fontSize": {
-            "value": "36px",
+            "value": "{font-size.font-unit26}",
             "type": "fontSize"
           }
         },
         "light": {
           "fontFamily": {
-            "value": "Alaska Beta",
+            "value": "{main}",
             "type": "fontFamily"
           },
           "fontWeight": {
-            "value": "Light Contrast",
+            "value": "{light}",
             "type": "fontWeight"
           },
           "lineHeight": {
-            "value": "44px",
+            "value": "{line-height.h2.tablet}",
             "type": "lineHeight"
           },
           "fontSize": {
-            "value": "36px",
+            "value": "{font-size.font-unit26}",
             "type": "fontSize"
           }
         }
@@ -1138,55 +1138,55 @@
       "mobile": {
         "bold": {
           "fontFamily": {
-            "value": "Alaska Beta",
+            "value": "{main}",
             "type": "fontFamily"
           },
           "fontWeight": {
-            "value": "Bold Contrast",
+            "value": "{bold}",
             "type": "fontWeight"
           },
           "lineHeight": {
-            "value": "32px",
+            "value": "{line-height.h2.mobile}",
             "type": "lineHeight"
           },
           "fontSize": {
-            "value": "28px",
+            "value": "{font-size.font-unit18}",
             "type": "fontSize"
           }
         },
         "medium": {
           "fontFamily": {
-            "value": "Alaska Beta",
+            "value": "{main}",
             "type": "fontFamily"
           },
           "fontWeight": {
-            "value": "Medium Contrast",
+            "value": "{medium}",
             "type": "fontWeight"
           },
           "lineHeight": {
-            "value": "32px",
+            "value": "{line-height.h2.mobile}",
             "type": "lineHeight"
           },
           "fontSize": {
-            "value": "28px",
+            "value": "{font-size.font-unit18}",
             "type": "fontSize"
           }
         },
         "light": {
           "fontFamily": {
-            "value": "Alaska Beta",
+            "value": "{main}",
             "type": "fontFamily"
           },
           "fontWeight": {
-            "value": "Light Contrast",
+            "value": "{light}",
             "type": "fontWeight"
           },
           "lineHeight": {
-            "value": "32px",
+            "value": "{line-height.h2.mobile}",
             "type": "lineHeight"
           },
           "fontSize": {
-            "value": "28px",
+            "value": "{font-size.font-unit18}",
             "type": "fontSize"
           }
         }
@@ -1196,55 +1196,55 @@
       "desktop": {
         "bold": {
           "fontFamily": {
-            "value": "Alaska Beta",
+            "value": "{main}",
             "type": "fontFamily"
           },
           "fontWeight": {
-            "value": "Bold Contrast",
+            "value": "{bold}",
             "type": "fontWeight"
           },
           "lineHeight": {
-            "value": "44px",
+            "value": "{line-height.h3.desktop}",
             "type": "lineHeight"
           },
           "fontSize": {
-            "value": "36px",
+            "value": "{font-size.font-unit26}",
             "type": "fontSize"
           }
         },
         "medium": {
           "fontFamily": {
-            "value": "Alaska Beta",
+            "value": "{main}",
             "type": "fontFamily"
           },
           "fontWeight": {
-            "value": "Medium Contrast",
+            "value": "{medium}",
             "type": "fontWeight"
           },
           "lineHeight": {
-            "value": "44px",
+            "value": "{line-height.h3.desktop}",
             "type": "lineHeight"
           },
           "fontSize": {
-            "value": "36px",
+            "value": "{font-size.font-unit26}",
             "type": "fontSize"
           }
         },
         "light": {
           "fontFamily": {
-            "value": "Alaska Beta",
+            "value": "{main}",
             "type": "fontFamily"
           },
           "fontWeight": {
-            "value": "Light Contrast",
+            "value": "{light}",
             "type": "fontWeight"
           },
           "lineHeight": {
-            "value": "44px",
+            "value": "{line-height.h3.desktop}",
             "type": "lineHeight"
           },
           "fontSize": {
-            "value": "36px",
+            "value": "{font-size.font-unit26}",
             "type": "fontSize"
           }
         }
@@ -1252,72 +1252,150 @@
       "tablet": {
         "bold": {
           "fontFamily": {
-            "value": "Alaska Beta",
+            "value": "{main}",
             "type": "fontFamily"
           },
           "fontWeight": {
-            "value": "Bold Contrast",
+            "value": "{bold}",
             "type": "fontWeight"
           },
           "lineHeight": {
-            "value": "32px",
+            "value": "{line-height.h3.tablet}",
             "type": "lineHeight"
           },
           "fontSize": {
-            "value": "28px",
+            "value": "{font-size.font-unit18}",
             "type": "fontSize"
           }
         },
         "medium": {
           "fontFamily": {
-            "value": "Alaska Beta",
+            "value": "{main}",
             "type": "fontFamily"
           },
           "fontWeight": {
-            "value": "Medium Contrast",
+            "value": "{medium}",
             "type": "fontWeight"
           },
           "lineHeight": {
-            "value": "32px",
+            "value": "{line-height.h3.tablet}",
             "type": "lineHeight"
           },
           "fontSize": {
-            "value": "28px",
+            "value": "{font-size.font-unit18}",
             "type": "fontSize"
           }
         },
         "light": {
           "fontFamily": {
-            "value": "Alaska Beta",
+            "value": "{main}",
             "type": "fontFamily"
           },
           "fontWeight": {
-            "value": "Light Contrast",
+            "value": "{light}",
             "type": "fontWeight"
           },
           "lineHeight": {
-            "value": "32px",
+            "value": "{line-height.h3.tablet}",
             "type": "lineHeight"
           },
           "fontSize": {
-            "value": "28px",
+            "value": "{font-size.font-unit18}",
             "type": "fontSize"
           }
         }
       },
       "mobile": {
         "medium": {
-          "value": "(heading.h3.tablet.medium}",
+          "value": {
+            "0": "(",
+            "1": "h",
+            "2": "e",
+            "3": "a",
+            "4": "d",
+            "5": "i",
+            "6": "n",
+            "7": "g",
+            "8": ".",
+            "9": "h",
+            "10": "3",
+            "11": ".",
+            "12": "t",
+            "13": "a",
+            "14": "b",
+            "15": "l",
+            "16": "e",
+            "17": "t",
+            "18": ".",
+            "19": "m",
+            "20": "e",
+            "21": "d",
+            "22": "i",
+            "23": "u",
+            "24": "m",
+            "25": "}"
+          },
           "type": "typography",
           "description": "H3 medium.\nUsed for mobile Headings"
         },
         "bold": {
-          "value": "(heading.h3.tablet.bold}",
+          "value": {
+            "0": "(",
+            "1": "h",
+            "2": "e",
+            "3": "a",
+            "4": "d",
+            "5": "i",
+            "6": "n",
+            "7": "g",
+            "8": ".",
+            "9": "h",
+            "10": "3",
+            "11": ".",
+            "12": "t",
+            "13": "a",
+            "14": "b",
+            "15": "l",
+            "16": "e",
+            "17": "t",
+            "18": ".",
+            "19": "b",
+            "20": "o",
+            "21": "l",
+            "22": "d",
+            "23": "}"
+          },
           "type": "typography",
           "description": "H2 bold.\nUsed for mobile Headings"
         },
         "light": {
-          "value": "(heading.h3.tablet.light}",
+          "value": {
+            "0": "(",
+            "1": "h",
+            "2": "e",
+            "3": "a",
+            "4": "d",
+            "5": "i",
+            "6": "n",
+            "7": "g",
+            "8": ".",
+            "9": "h",
+            "10": "3",
+            "11": ".",
+            "12": "t",
+            "13": "a",
+            "14": "b",
+            "15": "l",
+            "16": "e",
+            "17": "t",
+            "18": ".",
+            "19": "l",
+            "20": "i",
+            "21": "g",
+            "22": "h",
+            "23": "t",
+            "24": "}"
+          },
           "type": "typography",
           "description": "H3 light.\nUsed for mobile Headings"
         }
@@ -1327,55 +1405,55 @@
       "desktop": {
         "bold": {
           "fontFamily": {
-            "value": "Alaska Beta",
+            "value": "{main}",
             "type": "fontFamily"
           },
           "fontWeight": {
-            "value": "Bold Contrast",
+            "value": "{bold}",
             "type": "fontWeight"
           },
           "lineHeight": {
-            "value": "28px",
+            "value": "{spacing.grid.unit7}",
             "type": "lineHeight"
           },
           "fontSize": {
-            "value": "20px",
+            "value": "{font-size.font-unit10}",
             "type": "fontSize"
           }
         },
         "medium": {
           "fontFamily": {
-            "value": "Alaska Beta",
+            "value": "{main}",
             "type": "fontFamily"
           },
           "fontWeight": {
-            "value": "Medium Contrast",
+            "value": "{medium}",
             "type": "fontWeight"
           },
           "lineHeight": {
-            "value": "28px",
+            "value": "{spacing.grid.unit7}",
             "type": "lineHeight"
           },
           "fontSize": {
-            "value": "20px",
+            "value": "{font-size.font-unit10}",
             "type": "fontSize"
           }
         },
         "light": {
           "fontFamily": {
-            "value": "Alaska Beta",
+            "value": "{main}",
             "type": "fontFamily"
           },
           "fontWeight": {
-            "value": "Light Contrast",
+            "value": "{light}",
             "type": "fontWeight"
           },
           "lineHeight": {
-            "value": "28px",
+            "value": "{spacing.grid.unit7}",
             "type": "lineHeight"
           },
           "fontSize": {
-            "value": "20px",
+            "value": "{font-size.font-unit10}",
             "type": "fontSize"
           }
         }
@@ -1383,55 +1461,55 @@
       "tablet": {
         "bold": {
           "fontFamily": {
-            "value": "Alaska Beta",
+            "value": "{main}",
             "type": "fontFamily"
           },
           "fontWeight": {
-            "value": "Bold Contrast",
+            "value": "{bold}",
             "type": "fontWeight"
           },
           "lineHeight": {
-            "value": "24px",
+            "value": "{spacing.grid.unit6}",
             "type": "lineHeight"
           },
           "fontSize": {
-            "value": "18px",
+            "value": "{font-size.font-unit8}",
             "type": "fontSize"
           }
         },
         "medium": {
           "fontFamily": {
-            "value": "Alaska Beta",
+            "value": "{main}",
             "type": "fontFamily"
           },
           "fontWeight": {
-            "value": "Medium Contrast",
+            "value": "{medium}",
             "type": "fontWeight"
           },
           "lineHeight": {
-            "value": "24px",
+            "value": "{spacing.grid.unit6}",
             "type": "lineHeight"
           },
           "fontSize": {
-            "value": "18px",
+            "value": "{font-size.font-unit8}",
             "type": "fontSize"
           }
         },
         "light": {
           "fontFamily": {
-            "value": "Alaska Beta",
+            "value": "{main}",
             "type": "fontFamily"
           },
           "fontWeight": {
-            "value": "Light Contrast",
+            "value": "{light}",
             "type": "fontWeight"
           },
           "lineHeight": {
-            "value": "24px",
+            "value": "{spacing.grid.unit6}",
             "type": "lineHeight"
           },
           "fontSize": {
-            "value": "18px",
+            "value": "{font-size.font-unit8}",
             "type": "fontSize"
           }
         }
@@ -1497,55 +1575,55 @@
       "tablet": {
         "bold": {
           "fontFamily": {
-            "value": "Alaska Beta",
+            "value": "{main}",
             "type": "fontFamily"
           },
           "fontWeight": {
-            "value": "Bold Contrast",
+            "value": "{bold}",
             "type": "fontWeight"
           },
           "lineHeight": {
-            "value": "24px",
+            "value": "{line-height.h7.tablet}",
             "type": "lineHeight"
           },
           "fontSize": {
-            "value": "16px",
+            "value": "{font-size.font-unit6}",
             "type": "fontSize"
           }
         },
         "medium": {
           "fontFamily": {
-            "value": "Alaska Beta",
+            "value": "{main}",
             "type": "fontFamily"
           },
           "fontWeight": {
-            "value": "Medium Contrast",
+            "value": "{medium}",
             "type": "fontWeight"
           },
           "lineHeight": {
-            "value": "24px",
+            "value": "{line-height.h7.tablet}",
             "type": "lineHeight"
           },
           "fontSize": {
-            "value": "16px",
+            "value": "{font-size.font-unit6}",
             "type": "fontSize"
           }
         },
         "light": {
           "fontFamily": {
-            "value": "Alaska Beta",
+            "value": "{main}",
             "type": "fontFamily"
           },
           "fontWeight": {
-            "value": "Light Contrast",
+            "value": "{light}",
             "type": "fontWeight"
           },
           "lineHeight": {
-            "value": "24px",
+            "value": "{line-height.h7.tablet}",
             "type": "lineHeight"
           },
           "fontSize": {
-            "value": "16px",
+            "value": "{font-size.font-unit6}",
             "type": "fontSize"
           }
         }
@@ -1609,55 +1687,55 @@
       "desktop": {
         "bold": {
           "fontFamily": {
-            "value": "Alaska Beta",
+            "value": "{main}",
             "type": "fontFamily"
           },
           "fontWeight": {
-            "value": "Bold Contrast",
+            "value": "{bold}",
             "type": "fontWeight"
           },
           "lineHeight": {
-            "value": "28px",
+            "value": "{line-height.h7.desktop}",
             "type": "lineHeight"
           },
           "fontSize": {
-            "value": "18px",
+            "value": "{font-size.font-unit8}",
             "type": "fontSize"
           }
         },
         "medium": {
           "fontFamily": {
-            "value": "Alaska Beta",
+            "value": "{main}",
             "type": "fontFamily"
           },
           "fontWeight": {
-            "value": "Medium Contrast",
+            "value": "{medium}",
             "type": "fontWeight"
           },
           "lineHeight": {
-            "value": "28px",
+            "value": "{line-height.h7.desktop}",
             "type": "lineHeight"
           },
           "fontSize": {
-            "value": "18px",
+            "value": "{font-size.font-unit8}",
             "type": "fontSize"
           }
         },
         "light": {
           "fontFamily": {
-            "value": "Alaska Beta",
+            "value": "{main}",
             "type": "fontFamily"
           },
           "fontWeight": {
-            "value": "Light Contrast",
+            "value": "{light}",
             "type": "fontWeight"
           },
           "lineHeight": {
-            "value": "28px",
+            "value": "{line-height.h7.desktop}",
             "type": "lineHeight"
           },
           "fontSize": {
-            "value": "18px",
+            "value": "{font-size.font-unit8}",
             "type": "fontSize"
           }
         }
@@ -1667,55 +1745,55 @@
       "desktop": {
         "bold": {
           "fontFamily": {
-            "value": "Alaska Beta",
+            "value": "{main}",
             "type": "fontFamily"
           },
           "fontWeight": {
-            "value": "Bold Contrast",
+            "value": "{bold}",
             "type": "fontWeight"
           },
           "lineHeight": {
-            "value": "40px",
+            "value": "{line-height.h4.desktop}",
             "type": "lineHeight"
           },
           "fontSize": {
-            "value": "28px",
+            "value": "{font-size.font-unit18}",
             "type": "fontSize"
           }
         },
         "medium": {
           "fontFamily": {
-            "value": "Alaska Beta",
+            "value": "{main}",
             "type": "fontFamily"
           },
           "fontWeight": {
-            "value": "Medium Contrast",
+            "value": "{medium}",
             "type": "fontWeight"
           },
           "lineHeight": {
-            "value": "40px",
+            "value": "{line-height.h4.desktop}",
             "type": "lineHeight"
           },
           "fontSize": {
-            "value": "28px",
+            "value": "{font-size.font-unit18}",
             "type": "fontSize"
           }
         },
         "light": {
           "fontFamily": {
-            "value": "Alaska Beta",
+            "value": "{main}",
             "type": "fontFamily"
           },
           "fontWeight": {
-            "value": "Light Contrast",
+            "value": "{light}",
             "type": "fontWeight"
           },
           "lineHeight": {
-            "value": "40px",
+            "value": "{line-height.h4.desktop}",
             "type": "lineHeight"
           },
           "fontSize": {
-            "value": "28px",
+            "value": "{font-size.font-unit18}",
             "type": "fontSize"
           }
         }
@@ -1723,55 +1801,55 @@
       "tablet": {
         "bold": {
           "fontFamily": {
-            "value": "Alaska Beta",
+            "value": "{main}",
             "type": "fontFamily"
           },
           "fontWeight": {
-            "value": "Bold Contrast",
+            "value": "{bold}",
             "type": "fontWeight"
           },
           "lineHeight": {
-            "value": "32px",
+            "value": "{line-height.h4.tablet}",
             "type": "lineHeight"
           },
           "fontSize": {
-            "value": "24px",
+            "value": "{font-size.font-unit14}",
             "type": "fontSize"
           }
         },
         "medium": {
           "fontFamily": {
-            "value": "Alaska Beta",
+            "value": "{main}",
             "type": "fontFamily"
           },
           "fontWeight": {
-            "value": "Medium Contrast",
+            "value": "{medium}",
             "type": "fontWeight"
           },
           "lineHeight": {
-            "value": "32px",
+            "value": "{line-height.h4.tablet}",
             "type": "lineHeight"
           },
           "fontSize": {
-            "value": "24px",
+            "value": "{font-size.font-unit14}",
             "type": "fontSize"
           }
         },
         "light": {
           "fontFamily": {
-            "value": "Alaska Beta",
+            "value": "{main}",
             "type": "fontFamily"
           },
           "fontWeight": {
-            "value": "Light Contrast",
+            "value": "{light}",
             "type": "fontWeight"
           },
           "lineHeight": {
-            "value": "32px",
+            "value": "{line-height.h4.tablet}",
             "type": "lineHeight"
           },
           "fontSize": {
-            "value": "24px",
+            "value": "{font-size.font-unit14}",
             "type": "fontSize"
           }
         }
@@ -1837,55 +1915,55 @@
       "desktop": {
         "bold": {
           "fontFamily": {
-            "value": "Alaska Beta",
+            "value": "{main}",
             "type": "fontFamily"
           },
           "fontWeight": {
-            "value": "Bold Contrast",
+            "value": "{bold}",
             "type": "fontWeight"
           },
           "lineHeight": {
-            "value": "32px",
+            "value": "{line-height.h5.desktop}",
             "type": "lineHeight"
           },
           "fontSize": {
-            "value": "24px",
+            "value": "{font-size.font-unit14}",
             "type": "fontSize"
           }
         },
         "medium": {
           "fontFamily": {
-            "value": "Alaska Beta",
+            "value": "{main}",
             "type": "fontFamily"
           },
           "fontWeight": {
-            "value": "Medium Contrast",
+            "value": "{medium}",
             "type": "fontWeight"
           },
           "lineHeight": {
-            "value": "32px",
+            "value": "{line-height.h5.desktop}",
             "type": "lineHeight"
           },
           "fontSize": {
-            "value": "24px",
+            "value": "{font-size.font-unit14}",
             "type": "fontSize"
           }
         },
         "light": {
           "fontFamily": {
-            "value": "Alaska Beta",
+            "value": "{main}",
             "type": "fontFamily"
           },
           "fontWeight": {
-            "value": "Light Contrast",
+            "value": "{light}",
             "type": "fontWeight"
           },
           "lineHeight": {
-            "value": "32px",
+            "value": "{line-height.h5.desktop}",
             "type": "lineHeight"
           },
           "fontSize": {
-            "value": "24px",
+            "value": "{font-size.font-unit14}",
             "type": "fontSize"
           }
         }
@@ -1893,55 +1971,55 @@
       "tablet": {
         "bold": {
           "fontFamily": {
-            "value": "Alaska Beta",
+            "value": "{main}",
             "type": "fontFamily"
           },
           "fontWeight": {
-            "value": "Bold Contrast",
+            "value": "{bold}",
             "type": "fontWeight"
           },
           "lineHeight": {
-            "value": "28px",
+            "value": "{line-height.h5.tablet}",
             "type": "lineHeight"
           },
           "fontSize": {
-            "value": "20px",
+            "value": "{font-size.font-unit10}",
             "type": "fontSize"
           }
         },
         "medium": {
           "fontFamily": {
-            "value": "Alaska Beta",
+            "value": "{main}",
             "type": "fontFamily"
           },
           "fontWeight": {
-            "value": "Medium Contrast",
+            "value": "{medium}",
             "type": "fontWeight"
           },
           "lineHeight": {
-            "value": "28px",
+            "value": "{line-height.h5.tablet}",
             "type": "lineHeight"
           },
           "fontSize": {
-            "value": "20px",
+            "value": "{font-size.font-unit10}",
             "type": "fontSize"
           }
         },
         "light": {
           "fontFamily": {
-            "value": "Alaska Beta",
+            "value": "{main}",
             "type": "fontFamily"
           },
           "fontWeight": {
-            "value": "Light Contrast",
+            "value": "{light}",
             "type": "fontWeight"
           },
           "lineHeight": {
-            "value": "28px",
+            "value": "{line-height.h5.tablet}",
             "type": "lineHeight"
           },
           "fontSize": {
-            "value": "20px",
+            "value": "{font-size.font-unit10}",
             "type": "fontSize"
           }
         }
@@ -2010,15 +2088,15 @@
         "large": {
           "lowercase": {
             "fontFamily": {
-              "value": "Alaska Beta",
+              "value": "{main}",
               "type": "fontFamily"
             },
             "fontWeight": {
-              "value": "Expanded Medium",
+              "value": "{expanded.medium}",
               "type": "fontWeight"
             },
             "lineHeight": {
-              "value": "20px",
+              "value": "{spacing.grid.unit5}",
               "type": "lineHeight"
             },
             "fontSize": {
@@ -2032,15 +2110,15 @@
           },
           "lowercase-light": {
             "fontFamily": {
-              "value": "Alaska Beta",
+              "value": "{main}",
               "type": "fontFamily"
             },
             "fontWeight": {
-              "value": "Expanded Regular",
+              "value": "{expanded.regular}",
               "type": "fontWeight"
             },
             "lineHeight": {
-              "value": "20px",
+              "value": "{spacing.grid.unit5}",
               "type": "lineHeight"
             },
             "fontSize": {
@@ -2054,15 +2132,15 @@
           },
           "uppercase": {
             "fontFamily": {
-              "value": "Alaska Beta",
+              "value": "{main}",
               "type": "fontFamily"
             },
             "fontWeight": {
-              "value": "Expanded Medium",
+              "value": "{expanded.medium}",
               "type": "fontWeight"
             },
             "lineHeight": {
-              "value": "20px",
+              "value": "{spacing.grid.unit5}",
               "type": "lineHeight"
             },
             "fontSize": {
@@ -2086,15 +2164,15 @@
         "medium": {
           "lowercase": {
             "fontFamily": {
-              "value": "Alaska Beta",
+              "value": "{main}",
               "type": "fontFamily"
             },
             "fontWeight": {
-              "value": "Expanded Medium",
+              "value": "{expanded.medium}",
               "type": "fontWeight"
             },
             "lineHeight": {
-              "value": "20px",
+              "value": "{spacing.grid.unit5}",
               "type": "lineHeight"
             },
             "fontSize": {
@@ -2108,15 +2186,15 @@
           },
           "uppercase": {
             "fontFamily": {
-              "value": "Alaska Beta",
+              "value": "{main}",
               "type": "fontFamily"
             },
             "fontWeight": {
-              "value": "Expanded Medium",
+              "value": "{expanded.medium}",
               "type": "fontWeight"
             },
             "lineHeight": {
-              "value": "20px",
+              "value": "{spacing.grid.unit5}",
               "type": "lineHeight"
             },
             "fontSize": {
@@ -2140,15 +2218,15 @@
         "small": {
           "lowercase": {
             "fontFamily": {
-              "value": "Alaska Beta",
+              "value": "{main}",
               "type": "fontFamily"
             },
             "fontWeight": {
-              "value": "Expanded Medium",
+              "value": "{expanded.medium}",
               "type": "fontWeight"
             },
             "lineHeight": {
-              "value": "20px",
+              "value": "{spacing.grid.unit5}",
               "type": "lineHeight"
             },
             "fontSize": {
@@ -2162,15 +2240,15 @@
           },
           "uppercase": {
             "fontFamily": {
-              "value": "Alaska Beta",
+              "value": "{main}",
               "type": "fontFamily"
             },
             "fontWeight": {
-              "value": "Expanded Medium",
+              "value": "{expanded.medium}",
               "type": "fontWeight"
             },
             "lineHeight": {
-              "value": "20px",
+              "value": "{spacing.grid.unit5}",
               "type": "lineHeight"
             },
             "fontSize": {
@@ -2194,15 +2272,15 @@
         "xsmall": {
           "lowercase": {
             "fontFamily": {
-              "value": "Alaska Beta",
+              "value": "{main}",
               "type": "fontFamily"
             },
             "fontWeight": {
-              "value": "Expanded Medium",
+              "value": "{expanded.medium}",
               "type": "fontWeight"
             },
             "lineHeight": {
-              "value": "20px",
+              "value": "{spacing.grid.unit5}",
               "type": "lineHeight"
             },
             "fontSize": {
@@ -2216,15 +2294,15 @@
           },
           "uppercase": {
             "fontFamily": {
-              "value": "Alaska Beta",
+              "value": "{main}",
               "type": "fontFamily"
             },
             "fontWeight": {
-              "value": "Expanded Medium",
+              "value": "{expanded.medium}",
               "type": "fontWeight"
             },
             "lineHeight": {
-              "value": "20px",
+              "value": "{spacing.grid.unit5}",
               "type": "lineHeight"
             },
             "fontSize": {
@@ -2251,15 +2329,15 @@
           "medium-weight": {
             "plain": {
               "fontFamily": {
-                "value": "Alaska Beta",
+                "value": "{main}",
                 "type": "fontFamily"
               },
               "fontWeight": {
-                "value": "Medium Contrast",
+                "value": "{medium}",
                 "type": "fontWeight"
               },
               "lineHeight": {
-                "value": "24px",
+                "value": "{spacing.grid.unit6}",
                 "type": "lineHeight"
               },
               "fontSize": {
@@ -2273,15 +2351,15 @@
             },
             "underline": {
               "fontFamily": {
-                "value": "Alaska Beta",
+                "value": "{main}",
                 "type": "fontFamily"
               },
               "fontWeight": {
-                "value": "Medium Contrast",
+                "value": "{medium}",
                 "type": "fontWeight"
               },
               "lineHeight": {
-                "value": "24px",
+                "value": "{spacing.grid.unit6}",
                 "type": "lineHeight"
               },
               "fontSize": {
@@ -2297,15 +2375,15 @@
           "light-weight": {
             "plain": {
               "fontFamily": {
-                "value": "Alaska Beta",
+                "value": "{main}",
                 "type": "fontFamily"
               },
               "fontWeight": {
-                "value": "Light Contrast",
+                "value": "{light}",
                 "type": "fontWeight"
               },
               "lineHeight": {
-                "value": "24px",
+                "value": "{spacing.grid.unit6}",
                 "type": "lineHeight"
               },
               "fontSize": {
@@ -2315,15 +2393,15 @@
             },
             "underline": {
               "fontFamily": {
-                "value": "Alaska Beta",
+                "value": "{main}",
                 "type": "fontFamily"
               },
               "fontWeight": {
-                "value": "Light Contrast",
+                "value": "{light}",
                 "type": "fontWeight"
               },
               "lineHeight": {
-                "value": "24px",
+                "value": "{spacing.grid.unit6}",
                 "type": "lineHeight"
               },
               "fontSize": {
@@ -2341,15 +2419,15 @@
           "medium-weight": {
             "plain": {
               "fontFamily": {
-                "value": "Alaska Beta",
+                "value": "{main}",
                 "type": "fontFamily"
               },
               "fontWeight": {
-                "value": "Medium Contrast",
+                "value": "{medium}",
                 "type": "fontWeight"
               },
               "lineHeight": {
-                "value": "24px",
+                "value": "{spacing.grid.unit6}",
                 "type": "lineHeight"
               },
               "fontSize": {
@@ -2363,15 +2441,15 @@
             },
             "underline": {
               "fontFamily": {
-                "value": "Alaska Beta",
+                "value": "{main}",
                 "type": "fontFamily"
               },
               "fontWeight": {
-                "value": "Medium Contrast",
+                "value": "{medium}",
                 "type": "fontWeight"
               },
               "lineHeight": {
-                "value": "24px",
+                "value": "{spacing.grid.unit6}",
                 "type": "lineHeight"
               },
               "fontSize": {
@@ -2387,37 +2465,37 @@
           "light-weight": {
             "plain": {
               "fontFamily": {
-                "value": "Alaska Beta",
+                "value": "{main}",
                 "type": "fontFamily"
               },
               "fontWeight": {
-                "value": "Light Contrast",
+                "value": "{light}",
                 "type": "fontWeight"
               },
               "lineHeight": {
-                "value": "24px",
+                "value": "{spacing.grid.unit6}",
                 "type": "lineHeight"
               },
               "fontSize": {
-                "value": "14px",
+                "value": "{font-size.font-unit4}",
                 "type": "fontSize"
               }
             },
             "underline": {
               "fontFamily": {
-                "value": "Alaska Beta",
+                "value": "{main}",
                 "type": "fontFamily"
               },
               "fontWeight": {
-                "value": "Light Contrast",
+                "value": "{light}",
                 "type": "fontWeight"
               },
               "lineHeight": {
-                "value": "24px",
+                "value": "{spacing.grid.unit6}",
                 "type": "lineHeight"
               },
               "fontSize": {
-                "value": "14px",
+                "value": "{font-size.font-unit4}",
                 "type": "fontSize"
               },
               "textDecoration": {
@@ -2580,19 +2658,19 @@
     "desktop": {
       "medium": {
         "fontFamily": {
-          "value": "Alaska Beta",
+          "value": "{main}",
           "type": "fontFamily"
         },
         "fontWeight": {
-          "value": "Medium Contrast",
+          "value": "{medium}",
           "type": "fontWeight"
         },
         "lineHeight": {
-          "value": "80px",
+          "value": "{line-height.display1.desktop}",
           "type": "lineHeight"
         },
         "fontSize": {
-          "value": "88px",
+          "value": "{font-size.font-unit78}",
           "type": "fontSize"
         }
       }
@@ -2600,19 +2678,19 @@
     "tablet": {
       "medium": {
         "fontFamily": {
-          "value": "Alaska Beta",
+          "value": "{main}",
           "type": "fontFamily"
         },
         "fontWeight": {
-          "value": "Medium Contrast",
+          "value": "{medium}",
           "type": "fontWeight"
         },
         "lineHeight": {
-          "value": "80px",
+          "value": "{line-height.display1.tablet}",
           "type": "lineHeight"
         },
         "fontSize": {
-          "value": "72px",
+          "value": "{font-size.font-unit62}",
           "type": "fontSize"
         }
       }
@@ -2620,19 +2698,19 @@
     "mobile": {
       "medium": {
         "fontFamily": {
-          "value": "Alaska Beta",
+          "value": "{main}",
           "type": "fontFamily"
         },
         "fontWeight": {
-          "value": "Medium Contrast",
+          "value": "{medium}",
           "type": "fontWeight"
         },
         "lineHeight": {
-          "value": "56px",
+          "value": "{line-height.display1.mobile}",
           "type": "lineHeight"
         },
         "fontSize": {
-          "value": "64px",
+          "value": "{font-size.font-unit54}",
           "type": "fontSize"
         }
       }
@@ -2644,64 +2722,64 @@
         "default": {
           "rest": {
             "border": {
-              "value": "#c5ccd3",
+              "value": "{border.rest}",
               "type": "color"
             },
             "text": {
-              "value": "#151f27",
+              "value": "{neutral.100}",
               "type": "color"
             }
           },
           "error": {
             "border": {
-              "value": "#BC002C",
+              "value": "{border.error}",
               "type": "color"
             },
             "text": {
-              "value": "#151f27",
+              "value": "{neutral.100}",
               "type": "color"
             }
           },
           "errorMessage": {
             "text": {
-              "value": "#BC002C",
+              "value": "{border.error}",
               "type": "color",
               "description": "Error text is the same colour as the border."
             }
           },
           "disabled": {
             "background": {
-              "value": "#F7F9FA",
+              "value": "{neutral.20}",
               "type": "color"
             },
             "border": {
-              "value": "#c5ccd3",
+              "value": "{formFields.inputBoxes.colour.default.rest.border}",
               "type": "color"
             },
             "text": {
-              "value": "#a9b3bc",
+              "value": "{neutral.40}",
               "type": "color"
             }
           },
           "hover": {
             "border": {
-              "value": "#586674",
+              "value": "{neutral.70}",
               "type": "color"
             }
           }
         },
         "search": {
           "border": {
-            "value": "linear-gradient(180deg, #FF9018 0%, #EC00A4 100%)",
+            "value": "{gradient.orange}",
             "type": "color"
           }
         },
         "placeholder": {
-          "value": "#a9b3bc",
+          "value": "{neutral.40}",
           "type": "color"
         },
         "background": {
-          "value": "#ffffff",
+          "value": "{global.white}",
           "type": "color"
         }
       }
@@ -2709,7 +2787,7 @@
     "label": {
       "colour": {
         "text": {
-          "value": "#151f27",
+          "value": "{neutral.100}",
           "type": "color"
         }
       }
@@ -2718,11 +2796,11 @@
   "diasbled": {
     "default": {
       "text": {
-        "value": "#a9b3bc",
+        "value": "{neutral.40}",
         "type": "color"
       },
       "border": {
-        "value": "#c5ccd3",
+        "value": "{neutral.30}",
         "type": "color"
       }
     }
@@ -2731,11 +2809,11 @@
     "labels": {
       "text-above": {
         "fontFamily": {
-          "value": "Alaska Beta",
+          "value": "{main}",
           "type": "fontFamily"
         },
         "fontWeight": {
-          "value": "Light Contrast",
+          "value": "{light}",
           "type": "fontWeight"
         },
         "lineHeight": {
@@ -2743,17 +2821,17 @@
           "type": "lineHeight"
         },
         "fontSize": {
-          "value": "16px",
+          "value": "{font-size.font-unit6}",
           "type": "fontSize"
         }
       },
       "message": {
         "fontFamily": {
-          "value": "Alaska Beta",
+          "value": "{main}",
           "type": "fontFamily"
         },
         "fontWeight": {
-          "value": "Light Contrast",
+          "value": "{light}",
           "type": "fontWeight"
         },
         "lineHeight": {
@@ -2761,7 +2839,7 @@
           "type": "lineHeight"
         },
         "fontSize": {
-          "value": "12px",
+          "value": "{font-size.font-unit2}",
           "type": "fontSize"
         }
       }
@@ -2769,19 +2847,19 @@
   },
   "test": {
     "fontFamily": {
-      "value": "Alaska Beta",
+      "value": "{main}",
       "type": "fontFamily"
     },
     "fontWeight": {
-      "value": "Expanded Regular",
+      "value": "{expanded.regular}",
       "type": "fontWeight"
     },
     "lineHeight": {
-      "value": "80px",
+      "value": "{line-height.display1.tablet}",
       "type": "lineHeight"
     },
     "fontSize": {
-      "value": "24px",
+      "value": "{font-size.font-unit14}",
       "type": "fontSize"
     }
   },
