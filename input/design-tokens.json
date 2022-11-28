@@ -384,7 +384,7 @@
       "grid": {
         "unit1": {
           "value": "4px",
-          "type": "spacing"
+          "type": "spacing" 
         },
         "unit2": {
           "value": "{spacing.grid.unit1}*2",
