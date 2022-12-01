@@ -1361,6 +1361,16 @@
           }
         },
         "medium": {
+          "lowercase-light": {
+            "value": {
+              "fontFamily": "{main}",
+              "fontWeight": "{expanded.regular}",
+              "lineHeight": "{spacing.grid.unit5}",
+              "fontSize": "14px",
+              "paragraphSpacing": ""
+            },
+            "type": "typography"
+          },
           "lowercase": {
             "value": {
               "fontFamily": "{main}",
@@ -1477,6 +1487,15 @@
                 "textDecoration": "Underline"
               },
               "type": "typography"
+            },
+            "increased-line-space": {
+              "value": {
+                "fontFamily": "{main}",
+                "fontWeight": "{light}",
+                "lineHeight": "{spacing.grid.unit7}",
+                "fontSize": "{font-size.font-unit6}"
+              },
+              "type": "typography"
             }
           }
         },
@@ -1557,7 +1576,21 @@
         "large": {
           "value": "{body.all-devices.paragraph.large-font-size.light-weight.plain}",
           "type": "typography"
+        },
+        "small": {
+          "value": "{body.all-devices.paragraph.small-font-size.light-weight.plain}",
+          "type": "typography"
         }
+      }
+    },
+    "body": {
+      "small": {
+        "value": {
+          "fontFamily": "{main}",
+          "fontWeight": "{medium}",
+          "lineHeight": "{spacing.grid.unit6}"
+        },
+        "type": "typography"
       }
     }
   },
