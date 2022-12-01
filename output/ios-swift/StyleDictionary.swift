@@ -4,7 +4,7 @@
 //
 
 // Do not edit directly
-// Generated on Fri, 25 Nov 2022 17:15:37 GMT
+// Generated on Thu, 01 Dec 2022 13:45:25 GMT
 
 
 import UIKit
@@ -124,6 +124,7 @@ public class StyleDictionary {
     public static let headingH3MobileBold = (heading.h3.tablet.bold}
     public static let headingH3MobileLight = (heading.h3.tablet.light}
     public static let headingH3MobileMedium = (heading.h3.tablet.medium}
+    public static let increased-line-space = [object Object]
     public static let l = [object Object]
     public static let large = [object Object]
     public static let large = [object Object]
@@ -151,6 +152,7 @@ public class StyleDictionary {
     public static let lowercase = [object Object]
     public static let lowercase = [object Object]
     public static let lowercase = [object Object]
+    public static let lowercase-light = [object Object]
     public static let lowercase-light = [object Object]
     public static let m = [object Object]
     public static let main = Alaska Beta
@@ -205,6 +207,8 @@ public class StyleDictionary {
     public static let plain = [object Object]
     public static let round = 4px
     public static let s = [object Object]
+    public static let small = [object Object]
+    public static let small = [object Object]
     public static let small = [object Object]
     public static let spacingComponentMobileL = 80px
     public static let spacingComponentMobileM = 56px
