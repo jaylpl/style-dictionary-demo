@@ -4,7 +4,7 @@
 //
 
 // Do not edit directly
-// Generated on Thu, 01 Dec 2022 13:45:25 GMT
+// Generated on Fri, 02 Dec 2022 17:00:41 GMT
 
 
 import UIKit
@@ -189,7 +189,7 @@ public class StyleDictionary {
     public static let mobile = [object Object]
     public static let mobile = [object Object]
     public static let neutral100 = #151f27
-    public static let neutral20 = #F7F9FA
+    public static let neutral20 = #F4F8FC
     public static let neutral30 = #c5ccd3
     public static let neutral40 = #a9b3bc
     public static let neutral50 = #8d99a5
