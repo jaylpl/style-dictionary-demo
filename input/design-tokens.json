@@ -182,7 +182,7 @@
   },
   "neutral": {
     "20": {
-      "value": "#F4F8FC",
+      "value": "#f7f9fa",
       "type": "color"
     },
     "30": {
@@ -220,11 +220,11 @@
   },
   "border": {
     "rest": {
-      "value": "{neutral.30}",
+      "value": "#c5ccd3",
       "type": "color"
     },
     "error": {
-      "value": "{global.dark-red}",
+      "value": "#bc002c",
       "type": "color"
     }
   },
@@ -243,7 +243,7 @@
       "description": "Mid orange\n"
     },
     "dark-red": {
-      "value": "#BC002C",
+      "value": "#bc002c",
       "type": "color",
       "description": "Dark red"
     },
@@ -283,7 +283,7 @@
       "description": "mid red\n"
     },
     "mid-green": {
-      "value": "#00B04E",
+      "value": "#00b04e",
       "type": "color",
       "description": "mid green"
     },
@@ -298,7 +298,7 @@
       "description": "ROSE red"
     },
     "primary": {
-      "value": "{neutral.100}",
+      "value": "#151f27",
       "type": "color"
     }
   },
@@ -306,6 +306,11 @@
     "canvas": {
       "value": "#0b1014",
       "type": "color"
+    },
+    "error-red": {
+      "value": "#bc002c",
+      "type": "color",
+      "description": "Red used for error messages"
     }
   },
   "gradient": {
@@ -326,7 +331,7 @@
       "type": "color"
     },
     "purple": {
-      "value": "linear-gradient(180deg, #0042FF 0%, #372BE9 34.38%, #7B0FCE 77.08%)",
+      "value": "linear-gradient(180deg, #0042ff 0%, #372be9 34.38%, #7b0fce 77.08%)",
       "type": "color"
     },
     "blue-vertical": {
@@ -334,7 +339,11 @@
       "type": "color"
     },
     "orange": {
-      "value": "linear-gradient(180deg, #FF9018 0%, #EC00A4 100%)",
+      "value": "linear-gradient(180deg, #ff9018 0%, #ec00a4 100%)",
+      "type": "color"
+    },
+    "rose-reply": {
+      "value": "linear-gradient(94deg, #f00d6c 0%, #f89a23 100%)",
       "type": "color"
     }
   },
@@ -584,32 +593,43 @@
       "colour": {
         "rest": {
           "background": {
-            "value": "{neutral.100}",
+            "value": "#151f27",
             "type": "color",
             "description": "Button background"
           },
           "text": {
-            "value": "{global.white}",
+            "value": "#ffffff",
             "type": "color"
           }
         },
         "hover": {
           "background": {
-            "value": "{neutral.80}",
+            "value": "#3f4d5a",
             "type": "color"
           },
           "text": {
-            "value": "{global.white}",
+            "value": "#ffffff",
             "type": "color"
           }
         },
         "disabled": {
           "background": {
-            "value": "{neutral.30}",
+            "value": "#c5ccd3",
             "type": "color"
           },
           "text": {
-            "value": "{global.white}",
+            "value": "#ffffff",
+            "type": "color"
+          }
+        },
+        "default": {
+          "background": {
+            "value": "#151f27",
+            "type": "color",
+            "description": "Button background"
+          },
+          "text": {
+            "value": "#ffffff",
             "type": "color"
           }
         }
@@ -633,32 +653,32 @@
       "colour": {
         "rest": {
           "text": {
-            "value": "{neutral.100}",
+            "value": "#151f27",
             "type": "color",
             "description": "Button background"
           },
           "background": {
-            "value": "{global.white}",
+            "value": "#ffffff",
             "type": "color"
           }
         },
         "hover": {
           "background": {
-            "value": "{button.primary.colour.hover.background}",
+            "value": "#3f4d5a",
             "type": "color"
           },
           "text": {
-            "value": "{button.primary.colour.hover.text}",
+            "value": "#ffffff",
             "type": "color"
           }
         },
         "disabled": {
           "background": {
-            "value": "{button.primary.colour.disabled.background}",
+            "value": "#c5ccd3",
             "type": "color"
           },
           "text": {
-            "value": "{button.primary.colour.disabled.text}",
+            "value": "#ffffff",
             "type": "color"
           }
         }
@@ -668,32 +688,32 @@
       "colour": {
         "rest": {
           "border": {
-            "value": "{button.primary.colour.rest.background}",
+            "value": "#151f27",
             "type": "color",
             "description": "Button background"
           },
           "text": {
-            "value": "{button.primary.colour.rest.background}",
+            "value": "#151f27",
             "type": "color"
           }
         },
         "hover": {
           "background": {
-            "value": "{button.primary.colour.hover.background}",
+            "value": "#3f4d5a",
             "type": "color"
           },
           "text": {
-            "value": "{button.primary.colour.hover.text}",
+            "value": "#ffffff",
             "type": "color"
           }
         },
         "disabled": {
           "border": {
-            "value": "{neutral.50}",
+            "value": "#8d99a5",
             "type": "color"
           },
           "text": {
-            "value": "{button.outline.colour.disabled.border}",
+            "value": "#8d99a5",
             "type": "color"
           }
         }
@@ -703,24 +723,31 @@
       "colour": {
         "rest": {
           "background": {
-            "value": "{global.rose-red}",
+            "value": "#e50049",
             "type": "color",
             "description": "Used on CTA cards"
           },
           "text": {
-            "value": "{global.white}",
+            "value": "#ffffff",
             "type": "color"
           }
         },
         "hover": {
           "background": {
-            "value": "{global.dark-red}",
+            "value": "#bc002c",
             "type": "color"
           },
           "text": {
-            "value": "{global.white}",
+            "value": "#ffffff",
             "type": "color"
           }
+        }
+      },
+      "rest": {
+        "background": {
+          "value": "#e50049",
+          "type": "color",
+          "description": "Background of tertiary button"
         }
       }
     }
@@ -1506,7 +1533,7 @@
                 "fontFamily": "{main}",
                 "fontWeight": "{medium}",
                 "lineHeight": "{spacing.grid.unit6}",
-                "fontSize": "16px",
+                "fontSize": "{font-size.font-unit4}",
                 "textDecoration": ""
               },
               "type": "typography",
@@ -1517,7 +1544,7 @@
                 "fontFamily": "{main}",
                 "fontWeight": "{medium}",
                 "lineHeight": "{spacing.grid.unit6}",
-                "fontSize": "16px",
+                "fontSize": "{font-size.font-unit4}",
                 "textDecoration": "Underline"
               },
               "type": "typography"
@@ -1635,60 +1662,60 @@
         "default": {
           "rest": {
             "border": {
-              "value": "{border.rest}",
+              "value": "#c5ccd3",
               "type": "color"
             },
             "text": {
-              "value": "{neutral.100}",
+              "value": "#151f27",
               "type": "color"
             }
           },
           "error": {
             "border": {
-              "value": "{border.error}",
+              "value": "#bc002c",
               "type": "color"
             },
             "text": {
-              "value": "{neutral.100}",
+              "value": "#151f27",
               "type": "color"
             }
           },
           "errorMessage": {
             "text": {
-              "value": "{border.error}",
+              "value": "#bc002c",
               "type": "color",
               "description": "Error text is the same colour as the border."
             }
           },
           "disabled": {
             "background": {
-              "value": "{neutral.20}",
+              "value": "#f7f9fa",
               "type": "color"
             },
             "border": {
-              "value": "{formFields.inputBoxes.colour.default.rest.border}",
+              "value": "#c5ccd3",
               "type": "color"
             },
             "text": {
-              "value": "{neutral.40}",
+              "value": "#a9b3bc",
               "type": "color"
             }
           },
           "hover": {
             "border": {
-              "value": "{neutral.70}",
+              "value": "#586674",
               "type": "color"
             }
           }
         },
         "search": {
           "border": {
-            "value": "{gradient.orange}",
+            "value": "linear-gradient(180deg, #ff9018 0%, #ec00a4 100%)",
             "type": "color"
           }
         },
         "placeholder": {
-          "value": "{neutral.40}",
+          "value": "#a9b3bc",
           "type": "color"
         },
         "background": {
@@ -1700,7 +1727,7 @@
     "label": {
       "colour": {
         "text": {
-          "value": "{neutral.100}",
+          "value": "#151f27",
           "type": "color"
         }
       }
@@ -1709,11 +1736,11 @@
   "diasbled": {
     "default": {
       "text": {
-        "value": "{neutral.40}",
+        "value": "#a9b3bc",
         "type": "color"
       },
       "border": {
-        "value": "{neutral.30}",
+        "value": "#c5ccd3",
         "type": "color"
       }
     }
@@ -1748,5 +1775,58 @@
       "fontSize": "{font-size.font-unit14}"
     },
     "type": "typography"
+  },
+  "canvas": {
+    "value": "#0b1014",
+    "type": "color"
+  },
+  "_link colour": {
+    "value": "#0b54e0",
+    "type": "color",
+    "description": "Figma links to jump to associated components"
+  },
+  "borders": {
+    "100": {
+      "value": "#c5ccd3",
+      "type": "color"
+    }
+  },
+  "support": {
+    "black": {
+      "value": "#000000",
+      "type": "color"
+    }
+  },
+  "error": {
+    "10": {
+      "value": "#fedbdf",
+      "type": "color"
+    },
+    "100": {
+      "value": "#c60000",
+      "type": "color"
+    }
+  },
+  "warning": {
+    "10": {
+      "value": "#fff1d7",
+      "type": "color"
+    },
+    "100": {
+      "value": "#c24700",
+      "type": "color"
+    }
+  },
+  "successs": {
+    "100": {
+      "value": "#0e813a",
+      "type": "color"
+    }
+  },
+  "success": {
+    "10": {
+      "value": "#e2faeb",
+      "type": "color"
+    }
   }
 }
