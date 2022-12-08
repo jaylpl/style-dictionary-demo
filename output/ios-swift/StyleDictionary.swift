@@ -4,15 +4,12 @@
 //
 
 // Do not edit directly
-// Generated on Fri, 02 Dec 2022 17:00:41 GMT
+// Generated on Thu, 08 Dec 2022 13:03:57 GMT
 
 
 import UIKit
 
 public class StyleDictionary {
-    public static let background = [object Object]
-    public static let background = [object Object]
-    public static let background = [object Object]
     public static let bold = Bold Contrast
     public static let bold = [object Object]
     public static let bold = [object Object]
@@ -34,28 +31,38 @@ public class StyleDictionary {
     public static let bold = [object Object]
     public static let bold = [object Object]
     public static let bold = [object Object]
-    public static let border = [object Object]
-    public static let border = [object Object]
-    public static let border = [object Object]
-    public static let border = [object Object]
-    public static let borderError = [object Object]
-    public static let borderRest = [object Object]
+    public static let borderError = #bc002c
+    public static let borderRest = #c5ccd3
+    public static let borders100 = #c5ccd3
     public static let buttonHeightLarge = 60px
     public static let buttonHeightMedium = 48px
     public static let buttonHeightSmall = 32px
-    public static let buttonOutlineColourDisabledBorder = [object Object]
-    public static let buttonPrimaryColourDisabledBackground = [object Object]
-    public static let buttonPrimaryColourDisabledText = [object Object]
-    public static let buttonPrimaryColourHoverBackground = [object Object]
-    public static let buttonPrimaryColourHoverText = [object Object]
-    public static let buttonPrimaryColourRestBackground = [object Object]
-    public static let buttonPrimaryColourRestText = [object Object]
-    public static let buttonSecondaryColourRestBackground = [object Object]
-    public static let buttonSecondaryColourRestText = [object Object]
-    public static let buttonTertiaryColourHoverBackground = [object Object]
-    public static let buttonTertiaryColourHoverText = [object Object]
-    public static let buttonTertiaryColourRestBackground = [object Object]
-    public static let buttonTertiaryColourRestText = [object Object]
+    public static let buttonOutlineColourDisabledBorder = #8d99a5
+    public static let buttonOutlineColourDisabledText = #8d99a5
+    public static let buttonOutlineColourHoverBackground = #3f4d5a
+    public static let buttonOutlineColourHoverText = #ffffff
+    public static let buttonOutlineColourRestBorder = #151f27
+    public static let buttonOutlineColourRestText = #151f27
+    public static let buttonPrimaryColourDefaultBackground = #151f27
+    public static let buttonPrimaryColourDefaultText = #ffffff
+    public static let buttonPrimaryColourDisabledBackground = #c5ccd3
+    public static let buttonPrimaryColourDisabledText = #ffffff
+    public static let buttonPrimaryColourHoverBackground = #3f4d5a
+    public static let buttonPrimaryColourHoverText = #ffffff
+    public static let buttonPrimaryColourRestBackground = #151f27
+    public static let buttonPrimaryColourRestText = #ffffff
+    public static let buttonSecondaryColourDisabledBackground = #c5ccd3
+    public static let buttonSecondaryColourDisabledText = #ffffff
+    public static let buttonSecondaryColourHoverBackground = #3f4d5a
+    public static let buttonSecondaryColourHoverText = #ffffff
+    public static let buttonSecondaryColourRestBackground = #ffffff
+    public static let buttonSecondaryColourRestText = #151f27
+    public static let buttonTertiaryColourHoverBackground = #bc002c
+    public static let buttonTertiaryColourHoverText = #ffffff
+    public static let buttonTertiaryColourRestBackground = #e50049
+    public static let buttonTertiaryColourRestText = #ffffff
+    public static let buttonTertiaryRestBackground = #e50049
+    public static let canvas = #0b1014
     public static let desktop = [object Object]
     public static let desktop = [object Object]
     public static let desktop = [object Object]
@@ -64,9 +71,12 @@ public class StyleDictionary {
     public static let desktop = [object Object]
     public static let desktop = [object Object]
     public static let desktop = [object Object]
-    public static let diasbledDefaultBorder = [object Object]
-    public static let diasbledDefaultText = [object Object]
+    public static let diasbledDefaultBorder = #c5ccd3
+    public static let diasbledDefaultText = #a9b3bc
+    public static let error10 = #fedbdf
+    public static let error100 = #c60000
     public static let exceptionsCanvas = #0b1014
+    public static let exceptionsErrorRed = #bc002c
     public static let expandedMedium = Expanded Medium
     public static let expandedRegular = Expanded Regular
     public static let fontSizeBaseUnit = 10px
@@ -84,28 +94,32 @@ public class StyleDictionary {
     public static let fontSizeFontUnit78 = 88px
     public static let fontSizeFontUnit8 = 18px
     public static let formFieldsInputBoxesColourBackground = [object Object]
-    public static let formFieldsInputBoxesColourDefaultDisabledBackground = [object Object]
-    public static let formFieldsInputBoxesColourDefaultDisabledText = [object Object]
-    public static let formFieldsInputBoxesColourDefaultErrorText = [object Object]
-    public static let formFieldsInputBoxesColourDefaultHoverBorder = [object Object]
-    public static let formFieldsInputBoxesColourDefaultRestText = [object Object]
-    public static let formFieldsInputBoxesColourPlaceholder = [object Object]
-    public static let formFieldsInputBoxesColourSearchBorder = [object Object]
-    public static let formFieldsLabelColourText = [object Object]
+    public static let formFieldsInputBoxesColourDefaultDisabledBackground = #f7f9fa
+    public static let formFieldsInputBoxesColourDefaultDisabledBorder = #c5ccd3
+    public static let formFieldsInputBoxesColourDefaultDisabledText = #a9b3bc
+    public static let formFieldsInputBoxesColourDefaultErrorBorder = #bc002c
+    public static let formFieldsInputBoxesColourDefaultErrorMessageText = #bc002c
+    public static let formFieldsInputBoxesColourDefaultErrorText = #151f27
+    public static let formFieldsInputBoxesColourDefaultHoverBorder = #586674
+    public static let formFieldsInputBoxesColourDefaultRestBorder = #c5ccd3
+    public static let formFieldsInputBoxesColourDefaultRestText = #151f27
+    public static let formFieldsInputBoxesColourPlaceholder = #a9b3bc
+    public static let formFieldsInputBoxesColourSearchBorder = linear-gradient(180deg, #ff9018 0%, #ec00a4 100%)
+    public static let formFieldsLabelColourText = #151f27
     public static let formFieldsLabelsMessage = [object Object]
     public static let formFieldsLabelsTextAbove = [object Object]
     public static let globalBlack = #000000
     public static let globalDarkGreen = #0e813a
     public static let globalDarkOrange = #c24700
-    public static let globalDarkRed = #BC002C
-    public static let globalMidGreen = #00B04E
+    public static let globalDarkRed = #bc002c
+    public static let globalMidGreen = #00b04e
     public static let globalMidRed = #ec384d
     public static let globalMidYellow = #ffd36c
     public static let globalOrange = #f38200
     public static let globalPaleGreen = #e2faeb
     public static let globalPaleYellow = #fff1d7
     public static let globalPink = #fedbdf
-    public static let globalPrimary = [object Object]
+    public static let globalPrimary = #151f27
     public static let globalRoseRed = #e50049
     public static let globalRougueGrey = #838383
     public static let globalWhite = #ffffff
@@ -113,9 +127,10 @@ public class StyleDictionary {
     public static let gradientBlueVertical = linear-gradient(278.94deg, #00DE97 7.01%, #0008EF 102.82%)
     public static let gradientGreen = linear-gradient(180deg, #00de97 0%, #0008ef 100%)
     public static let gradientNeutral = linear-gradient(0deg, #f5e1f2 0%, #e5eafe 48.29%, #d9efea 99.72%)
-    public static let gradientOrange = linear-gradient(180deg, #FF9018 0%, #EC00A4 100%)
-    public static let gradientPurple = linear-gradient(180deg, #0042FF 0%, #372BE9 34.38%, #7B0FCE 77.08%)
+    public static let gradientOrange = linear-gradient(180deg, #ff9018 0%, #ec00a4 100%)
+    public static let gradientPurple = linear-gradient(180deg, #0042ff 0%, #372be9 34.38%, #7b0fce 77.08%)
     public static let gradientRed = linear-gradient(180deg, #de0206 0%, #d23258 41.15%, #a41ac8 91.67%)
+    public static let gradientRoseReply = linear-gradient(94deg, #f00d6c 0%, #f89a23 100%)
     public static let heading = [object Object]
     public static let heading = [object Object]
     public static let heading = [object Object]
@@ -148,6 +163,7 @@ public class StyleDictionary {
     public static let light = [object Object]
     public static let light = [object Object]
     public static let light = [object Object]
+    public static let linkColour = #0b54e0
     public static let lowercase = [object Object]
     public static let lowercase = [object Object]
     public static let lowercase = [object Object]
@@ -189,7 +205,7 @@ public class StyleDictionary {
     public static let mobile = [object Object]
     public static let mobile = [object Object]
     public static let neutral100 = #151f27
-    public static let neutral20 = #F4F8FC
+    public static let neutral20 = #f7f9fa
     public static let neutral30 = #c5ccd3
     public static let neutral40 = #a9b3bc
     public static let neutral50 = #8d99a5
@@ -244,6 +260,9 @@ public class StyleDictionary {
     public static let strapline = [object Object]
     public static let strapline = [object Object]
     public static let strapline = [object Object]
+    public static let success10 = #e2faeb
+    public static let successs100 = #0e813a
+    public static let supportBlack = #000000
     public static let tablet = [object Object]
     public static let tablet = [object Object]
     public static let tablet = [object Object]
@@ -253,12 +272,6 @@ public class StyleDictionary {
     public static let tablet = [object Object]
     public static let tablet = [object Object]
     public static let test = [object Object]
-    public static let text = [object Object]
-    public static let text = [object Object]
-    public static let text = [object Object]
-    public static let text = [object Object]
-    public static let text = [object Object]
-    public static let text = [object Object]
     public static let underline = [object Object]
     public static let underline = [object Object]
     public static let underline = [object Object]
@@ -267,6 +280,8 @@ public class StyleDictionary {
     public static let uppercase = [object Object]
     public static let uppercase = [object Object]
     public static let uppercase = [object Object]
+    public static let warning10 = #fff1d7
+    public static let warning100 = #c24700
     public static let xl = [object Object]
     public static let xsmall = [object Object]
 }
