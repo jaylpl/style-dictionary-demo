@@ -311,6 +311,18 @@
       "value": "#bc002c",
       "type": "color",
       "description": "Red used for error messages"
+    },
+    "_link colour": {
+      "value": "#0b54e0",
+      "type": "color",
+      "description": "Figma links to jump to associated components"
+    },
+    "info-box": {
+      "background": {
+        "value": "#eeeeee",
+        "type": "color",
+        "description": "Background colour of form info pop-up boxes\n"
+      }
     }
   },
   "gradient": {
@@ -1702,7 +1714,7 @@
       }
     }
   },
-  "formFields": {
+  "forms": {
     "inputBoxes": {
       "colour": {
         "default": {
@@ -1718,7 +1730,7 @@
           },
           "error": {
             "border": {
-              "value": "#bc002c",
+              "value": "{border.error}",
               "type": "color"
             },
             "text": {
@@ -1777,21 +1789,7 @@
           "type": "color"
         }
       }
-    }
-  },
-  "diasbled": {
-    "default": {
-      "text": {
-        "value": "#a9b3bc",
-        "type": "color"
-      },
-      "border": {
-        "value": "#c5ccd3",
-        "type": "color"
-      }
-    }
-  },
-  "forms": {
+    },
     "labels": {
       "text-above": {
         "value": {
@@ -1818,14 +1816,17 @@
       "description": "Font for info pop-over message boxes. Displayed when a user hovers over an 'i' icon."
     }
   },
-  "canvas": {
-    "value": "#0b1014",
-    "type": "color"
-  },
-  "_link colour": {
-    "value": "#0b54e0",
-    "type": "color",
-    "description": "Figma links to jump to associated components"
+  "diasbled": {
+    "default": {
+      "text": {
+        "value": "#a9b3bc",
+        "type": "color"
+      },
+      "border": {
+        "value": "#c5ccd3",
+        "type": "color"
+      }
+    }
   },
   "borders": {
     "100": {
@@ -1839,36 +1840,52 @@
       "type": "color"
     }
   },
-  "error": {
-    "10": {
-      "value": "#fedbdf",
-      "type": "color"
+  "feedback": {
+    "dashboard": {
+      "warning": {
+        "text": {
+          "value": "#c24700",
+          "type": "color"
+        },
+        "background": {
+          "value": "#fff1d7",
+          "type": "color"
+        }
+      },
+      "successs": {
+        "text": {
+          "value": "#0e813a",
+          "type": "color"
+        },
+        "background": {
+          "value": "#e2faeb",
+          "type": "color"
+        }
+      },
+      "error": {
+        "text": {
+          "value": "{global.dark-red}",
+          "type": "color"
+        },
+        "background": {
+          "value": "#F8D7DA",
+          "type": "color"
+        }
+      }
     },
-    "100": {
-      "value": "#c60000",
-      "type": "color"
-    }
-  },
-  "warning": {
-    "10": {
-      "value": "#fff1d7",
-      "type": "color"
-    },
-    "100": {
-      "value": "#c24700",
-      "type": "color"
-    }
-  },
-  "successs": {
-    "100": {
-      "value": "#0e813a",
-      "type": "color"
-    }
-  },
-  "success": {
-    "10": {
-      "value": "#e2faeb",
-      "type": "color"
+    "forms": {
+      "success": {
+        "background": {
+          "value": "#5ed18b",
+          "type": "color",
+          "description": "Use for the bacground of feedback boxes. Text within the boxes should use the primary text colour: neutral 100\n"
+        },
+        "text": {
+          "value": "#028831",
+          "type": "color",
+          "description": "Used for feedback on a pale background"
+        }
+      }
     }
   }
 }
